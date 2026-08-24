@@ -1,0 +1,114 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging and build output
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Tests, coverage, type checking, and lint caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.pyright/
+.pyre/
+.ruff_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment, credentials, and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+credentials.json
+credentials.*.json
+token.json
+token.*.json
+client_secret*.json
+cookies.txt
+*.pem
+*.key
+
+# Logs and local process state
+*.log
+*.pid
+*.pid.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Operating-system junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*/
+
+# Generated media, exports, and reports
+# Keep source/reference media trackable; put generated files in these folders.
+/downloads/
+/exports/
+/generated/
+/media/generated/
+/audio/generated/
+/video/generated/
+/renders/
+/reports/generated/
+/output/
+/outputs/
+
+# Project-specific generated data and caches
+/youtube_scorer_output/
+/shazam_year_output/
+/musicbrainz_cache/
+/data/generated/
+/youtube_scores*.csv
+/shazam_year*.csv
+/musicbrainz_cache.*
+
+# Incomplete and temporary downloads (yt-dlp, browsers, aria2, etc.)
+*.part
+*.part-Frag*
+*.partial
+*.ytdl
+*.aria2
+*.crdownload
+*.download
+*.tmp
+*.temp
+
+# rclone and sync temporary artifacts
+.rclone_cache/
+.rclone-cache/
+.rclone-tmp/
+.rclone-trash/
+*.rclonelink
+*.rclone-partial
