@@ -141,7 +141,7 @@ def gather_songs(sorter, old=False, kfma=False, trance=None, jazz=0, classical=F
         "\\bbeastie\\s+boys", "bloodfury", "faith\\s+no\\s+more", "soft\\s+cell", "schonherz", "cee\\s*lo\\s+green",
         "\\blocal\\s+h\\W", "\\bnirvana", "\\boffspring", "\\blinkin\\s+park", "\\bred\\s+hot\\s+chill?i\\s+peppers",
         "\\bevanescence", "shiny\\s+toy\\s+guns", "\\bpowerman\\s+5000", "\\balice\\s+in\\s+chains",
-        "collective\\s+soul",
+        "\\bcollective\\s+soul", "\\bstardust",
         "\\bwill(?:iam)?\\s+ackerman", "pat\\s+benatar", "\\bwhite\\s+zombie", "stone\\s+temple\\s+pilots",
         "\\bsimone\\s+vitullo", "kings\\s+of\\s+leon", "van\\s+halen", "paul\\s+hardcastle", "jazzmasters",
         "\\binterior\\W*hot\\s+beach", "smashing\\s+pumpkins", "andre\\s+nickatina", "\\bverve\\b", "\\bnils\\b",
