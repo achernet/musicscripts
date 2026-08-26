@@ -35,6 +35,7 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Local environment, credentials, and secrets
+/.gitignore.local
 .env
 .env.*
 !.env.example
@@ -86,6 +87,7 @@ $RECYCLE.BIN/
 /outputs/
 
 # Project-specific generated data and caches
+/.djlearn/
 /youtube_scorer_output/
 /shazam_year_output/
 /musicbrainz_cache/
