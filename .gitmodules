@@ -1,0 +1,3 @@
+[submodule "cratepilot"]
+	path = cratepilot
+	url = git@github.com:achernet/cratepilot.git
