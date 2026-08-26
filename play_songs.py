@@ -141,7 +141,7 @@ def gather_songs(sorter, old=False, kfma=False, trance=None, jazz=0, classical=F
         "\\bbeastie\\s+boys", "bloodfury", "faith\\s+no\\s+more", "soft\\s+cell", "schonherz", "cee\\s*lo\\s+green",
         "\\blocal\\s+h\\W", "\\bnirvana", "\\boffspring", "\\blinkin\\s+park", "\\bred\\s+hot\\s+chill?i\\s+peppers",
         "\\bevanescence", "shiny\\s+toy\\s+guns", "\\bpowerman\\s+5000", "\\balice\\s+in\\s+chains",
-        "\\bcollective\\s+soul", "\\bstardust",
+        "\\bcollective\\s+soul", "\\bstardust", "\\bpeter\\s+white",
         "\\bwill(?:iam)?\\s+ackerman", "pat\\s+benatar", "\\bwhite\\s+zombie", "stone\\s+temple\\s+pilots",
         "\\bsimone\\s+vitullo", "kings\\s+of\\s+leon", "van\\s+halen", "paul\\s+hardcastle", "jazzmasters",
         "\\binterior\\W*hot\\s+beach", "smashing\\s+pumpkins", "andre\\s+nickatina", "\\bverve\\b", "\\bnils\\b",
@@ -232,7 +232,7 @@ def gather_songs(sorter, old=False, kfma=False, trance=None, jazz=0, classical=F
         "dave\\s+brubeck", "brian\\s+culbertson", "alex\\s+de\\s+grassi", "al\\s+di\\s*meola", "\\badiemus",
         "\\buman", "kirk\\s+whalum", "\\bnajee", "\\bkim\\s+waters", "\\brichard\\s+elliot", "\\bliz\\s+story",
         "\\btim\\s+bowman", "\\bscott\\s+cossu", "\\bmichael\\s+hedges", "\\bdarol\\s+anger",
-        "\\bglenn\\s+miller", "\\bgregg\\s+karukas", "\\bchris\\s+botti",
+        "\\bglenn\\s+miller", "\\bgregg\\s+karukas", "\\bchris\\s+botti", "\\bpeter\\s+white",
     ])
     trance_whitelist = "|".join([
         "\\bsean\\s+tyas", "\\barmin\\s+van\\s+buuren", "\\bprobspot", "\\benvio\\W+", "\\baly\\W{1,4}fila",
